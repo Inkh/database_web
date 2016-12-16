@@ -6,28 +6,49 @@
     width:970px;
     height:auto;
     padding:10px;
-    background-color:black;
+    background-color:white;
 }
 .heading{
-    width:auto;
-    height:auto;
-    background-color:gray;
+    box-sizing: border-box;
+    padding:5px;
+    width:970px;
+    height:100px;
+    background-color:white;
+}
+.heading h1{
+    vertical-align: top;
+    display:inline-block;
+    text-align: right;
+    line-height:90px;
+    margin-left: 200px;
 }
 .navbar{
-    width:auto;
+    width:968px;
     height:35px;
-    background-color:pink;
+    background-color:#F0F3F4;
+    border:1px solid black;
+}
+.navbar a{
+    height:35px;
+    width:100px;
+    border:1px solid black;
+    display:inline;
+    /*margin:0px 20px;*/
+    line-height: 35px;
+    padding:8.5px 35px;
+    margin:0px -0.5px;
+    box-sizing: border-box;
 }
 .main{
-    width:auto;
+    width:970px;
     height:auto;
-    background-color:lightgray;
+    background: radial-gradient(#784212,#1B4F72,#4A235A,black);
 }
 .top{
     width:970px;
     height:auto;
-    background-color:purple;
-    padding:20px;
+    /*background-color:purple;*/
+    padding:20px 20px 0px 20px;
     box-sizing: border-box;
 }
 .top .content{
@@ -39,6 +60,12 @@
     display:inline-block;
     vertical-align: top;
 }
+.top p{
+    margin:10px;
+}
+.top h3{
+    margin:10px;
+}
 .top img{
     border: 10px solid silver;
     margin-left: 2px;
@@ -46,18 +73,26 @@
 .mid{
     width:auto;
     height:20px;
-    background-color:orange;
+    /*background-color:orange;*/
+}
+.mid p{
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    text-align: right;
+    margin-right:50px;
+    line-height:20px;
 }
 .class_wrap{
     width:970px;
     height:auto;
-    background-color:lightblue;
+    /*background-color:lightblue;*/
     text-align: center;
 }
 .box{
     width:220px;
-    height:500px;
-    background-color:indigo;
+    height:530px;
+    background: linear-gradient(#1A5276, white);
     display:inline-block;
     vertical-align: top;
     margin:5.5px;
@@ -83,6 +118,29 @@ h2{
     line-height: 30px;
 }
 .box p{
+    /*width:100%;*/
+    height:310px;
+    /*background-color: purple;*/
     text-align: left;
-    margin:15px;
+    margin:10px 15px 15px 15px;
+}
+button{
+    text-align: center;
+    font-weight: bold;
+    /*vertical-align:bottom;*/
+    width:90px;
+    height:25px;
+    color:white;
+    background-color:#1B4F72;
+    border-radius:5px;
+    border: 3px solid black;
+    margin-left:90px;
+    box-shadow:0px 3px 10px black;
+}
+.butwrap{
+    width:100%;
+    height:30px;
+    vertical-align: bottom;
+    border:2px white solid;
+    margin-top:60px;
 }
