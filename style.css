@@ -5,7 +5,7 @@
 .wrapper{
     width:970px;
     height:auto;
-    padding:10px;
+    padding:15px;
     background-color:white;
 }
 .heading{
@@ -13,7 +13,8 @@
     padding:5px;
     width:970px;
     height:100px;
-    background-color:white;
+    /*background-color:white;*/
+    background:linear-gradient(#F0F3F4,white);
 }
 .heading h1{
     vertical-align: top;
@@ -43,6 +44,7 @@
     width:970px;
     height:auto;
     background: radial-gradient(#784212,#1B4F72,#4A235A,black);
+    padding-bottom:15px;
 }
 .top{
     width:970px;
@@ -73,15 +75,21 @@
 .mid{
     width:auto;
     height:20px;
+    text-align:right;
     /*background-color:orange;*/
 }
 .mid p{
     font-size: 12px;
     font-weight: bold;
     color: white;
-    text-align: right;
     margin-right:50px;
     line-height:20px;
+    display:inline;
+    vertical-align: top;
+}
+.mid img{
+    line-height:20px;
+    vertical-align: top;
 }
 .class_wrap{
     width:970px;
