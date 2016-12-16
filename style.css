@@ -1,0 +1,44 @@
+.wrapper{
+    width:970px;
+    height:auto;
+    padding:10px;
+    background-color:black;
+}
+.heading{
+    width:auto;
+    height:auto;
+    background-color:gray;
+}
+.navbar{
+    width:auto;
+    height:35px;
+    background-color:pink;
+}
+.main{
+    width:auto;
+    height:auto;
+    background-color:lightgray;
+}
+.top{
+    width:auto;
+    height:auto;
+    background-color:purple;
+}
+.midcontent{
+    width:500px;
+    height:300px;
+    margin:20px;
+    background-color:white;
+    display:inline-block;
+    vertical-align: top;
+}
+.mid{
+    width:auto;
+    height:20px;
+    background-color:orange;
+}
+.bot{
+    width:auto;
+    height:300px;
+    background-color:lightblue;
+}
